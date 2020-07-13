@@ -1,0 +1,22 @@
+<html> 
+
+<body> 
+	<h1>Assignment 2</h1> 
+
+	<h3> 
+		Print the content of the current window 
+	</h3> 
+
+	<form> 
+		<input type="button" value="Print"
+			onclick="print_current_page()" /> 
+	</form> 
+
+	<script type="text/javascript"> 
+		function print_current_page() { 
+			window.print(); 
+		} 
+	</script> 
+</body> 
+
+</html> 
