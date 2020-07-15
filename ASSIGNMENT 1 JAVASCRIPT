@@ -1,1 +1,131 @@
+ Question 1 :
+      Explore and explain the various methods in console function....
+
+1.console.log()
+function in JavaScript which is used to print any kind of variables defined before in it. 
+
+<script> 
+var a = 2; 
+console.log(a); 
+</script> 
+
+
+2.Console.warn()
+Outputs a warning message to the Web Console.
+
+function compareNumber(x, y) { 
+	
+	if (x > y)
+		console.warn({x} is greater then {y}); 
+	}  
+
+
+3.console.assert()
+writes an error message to the console if the assertion is false.
+
+<script> 
+console.assert(document.getElementById("MyElement")
+</script> 
+
+
+4.console.clear()
+ clears the console
+
+
+5.console.debug()
+outputs a message to the web console at the "debug" log level.
+
+6.Console.table()
+Displays tabular data as a table
+
+// an array of strings
+
+console.table(["apples", "oranges", "bananas"])
+
+
+7.Console.time()
+Starts a timer you can use to track how long an operation takes
+
+8.Console.profile()
+Starts recording a performance profile
+
+
+                      Question 2 :
+         Write the difference between var, let and const with code examples.
+
+In Javascript variables are defined using the keywords var.let or const.
+var a=10;
+let b=20;
+const PI=3.14;
+
+A var variable can be redeclared and updated.
+A let variable be be updated but not redeclared.
+    EXAMPLE OF LET
+// This 'let' is scoped to the window (globally):
+let winner = false;
+if(points > 40) {
+// This 'let' is scoped to the block (between the curly brackets):
+  let winner = true;
+}
+
+     EXAMPLE OF VAR
+let points = 50;
+var winner = false;
+if(points > 40) {
+  var winner = true;
+}
+// If I call:
+winner
+// It now returns: 
+true
+
+
+const variables cannot be updated. let variables are made to be updated.
+const joseph = Object.freeze(person);
+
+
+
+
+                     Question 3 :
+       Write a brief intro on available data types in Javascript.
+
+there are 7 data types in Javascript from which six data types are Primitive(predefined).
+1.Numbers: 5, 6.5, 7 etc.
+2.String: “Hello GeeksforGeeks” etc.
+3.Boolean: Represent a logical entity and can have two values: true or false.
+4.Null: This type has only one value : null.
+5.Undefined: A variable that has not been assigned a value is undefined.
+6.Object: It is the most important data-type and forms the building blocks for modern JavaScript. We will learn about these data types in details in further articles.
+7.Arrays: arrays are written with square brackets.Array items are separated by commas.
+
+examples of each....
+
+    numbers
+var x1 = 34;   
+var x2 = 38;
+
+    strings
+var carName1 = "Volvo XC60"
+
+    Booleans
+var x = 5;
+var y = 5;
+var z = 6;
+(x == y) 
+(x == z)
+
+
+   Undefined
+var car;
+
+   Null
+var person = {firstName:"Sai", lastName:"Kiran", age:30};
+person = null;
+
+    Objects
+var person = {firstName:"Sai", lastName:"Kiran", age:30};
+
+    Arrays
+var cars = ["Saab", "Volvo", "BMW"];
+
 
